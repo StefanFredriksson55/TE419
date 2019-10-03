@@ -11,18 +11,14 @@ namespace Arv_Polymorphism_Player
     {
         int _mana;
 
-        //public Priest(string username, int mana) : base(username)
-        //{
-        //    this._userName = username;
-        //    this._mana = mana;
-        //    MessageBox.Show("Nu skapades en Priest");
-
-        //}
         public Priest(string username, int mana, int playTime) : base(playTime)
         {
             this._userName = username;
             this._mana = mana;
             MessageBox.Show("Nu skapades en Priest");
         }
+
     }
+   
+
 }
