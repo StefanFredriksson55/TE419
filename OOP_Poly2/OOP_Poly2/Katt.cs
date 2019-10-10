@@ -14,10 +14,10 @@ namespace OOP_Poly2
            
         }
 
-        public override void sort()
-        {
-            MessageBox.Show("Jag är en katt");
-        }
+        //public override void sort()
+        //{
+        //    MessageBox.Show("Jag är en katt");
+        //}
 
     }
 }

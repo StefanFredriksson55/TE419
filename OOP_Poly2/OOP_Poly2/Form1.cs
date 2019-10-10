@@ -25,6 +25,7 @@ namespace OOP_Poly2
             djurLista.Add(new Katt());
             foreach(Djur d in djurLista)
             {
+                
                 d.sort();
                 //if (d is Hund)
                 //{
@@ -40,7 +41,7 @@ namespace OOP_Poly2
                 //{
                 //    d.sort();
                 //}
-                
+
             }
         }
     }
